@@ -11,6 +11,7 @@ import Button from "./components/button";
 import ButtonIcon from "./components/button-icon";
 import InputText from "./components/input-text";
 import InputCheckbox from "./components/input-check-box";
+import Card from "./components/card";
 
 
 export default function App() {
@@ -54,6 +55,10 @@ export default function App() {
 
       <div>
         <InputCheckbox></InputCheckbox>
+      </div>
+
+      <div>
+        <Card size="md">Olá Mundo!</Card>
       </div>
 
     </div>
